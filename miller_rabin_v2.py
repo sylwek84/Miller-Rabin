@@ -53,6 +53,6 @@ for (liczba) in range(10 ** 200 + 1, 10 ** 200 + 1000, 2):   #zakres jaki chcemy
         liczby_pierwsze.append(liczba)
         print(liczba)
 
-#print(liczby_pierwsze) #można wypisać listę znaezionych liczb pierwszych z podanego zakresu
+#print(liczby_pierwsze) #można wypisać listę znalezionych liczb pierwszych z podanego zakresu
 
 print("--- %s seconds ---" % (time.time() - start_time))
